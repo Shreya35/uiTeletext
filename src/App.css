@@ -1,22 +1,676 @@
-.App {
-  text-align: center;
+.container{
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
+.Parent{
+  flex-grow: 1
 }
+.above{
+  display: flex;
+    justify-content: flex-end;
+}
+.aboveWrapper{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.removeMargin{
+  margin: 0
+}
+.marginStyl{
+  margin-left: 10px
+}
+.callContainer{
+  background-color: white;
+  color: black;
+  padding: 7px;
+  border-bottom-left-radius: 15px;
+  position: relative;
+  top: -9px;
+  border-bottom-right-radius: 15px;
+  color: #6e4394
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.wrapper{
+  display: flex;
+  align-items: center
+}
+.lineDrawn{
+  border-left: 1px solid white;
+  margin-left: 10px
+}
+.below{
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.headerLogo{
+  min-width: 500px;
+}
+.liContainer{
+  flex-grow: 1;
+}
+.ulContainer{
+  display: flex;
+  margin: 0;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.belowContainer{
+  display: flex;
+}
+.leftBelowContainer{
+  display: flex;
+  width: 500px;
+  justify-content: space-evenly;
+  color:#5bbaec
+}
+.textStyle{
+  font-size: 20px;
+}
+.rightBelowContainer{
+  display: flex;
+  flex-grow: 1;
+  font-size: 20px;
+  color: #e87340;
+  justify-content: flex-end
+  
+}
+.mainContentController{
+  display: flex;
+  background-color: #5bbaec;
+  height: 45%
+}
+.inputHeading{
+  color: #8ab44a
+}
+.inputStyleController{
+  display: flex;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.firstMainContent{
+  background-color: white;
+    padding-left: 15px;
+    padding-right: 157px;
+}
+.commanInputStyle{
+  margin-left: 2px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 80px;
+}
+.dealStyl{
+  margin-left: 2px;
+    background-color: #e87340;
+    padding-left: 25px;
+    font-size: 25px;
+    color: white;
+    padding-right: 35px;
+    padding-top: 3px;
+}
+.noContainer{
+  display: flex;
+  align-items: center;
+}
+.noStyle{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-left: 50px;
+  font-size: 30px;
+}
+.MainHeading{
+  color: white
+}
+.holidayCont{
+  display: flex;
+  justify-content: space-around;
+}
+.bldPara{
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 0px
+}
+.lgtPara{
+  color:#a5a6a7;
+}
+.texxStyl{
+  font-size: 20px
+}
+.boldNo{
+  font-weight: bold;
+    font-size: 22px;
+}
+.cardController {
+  width: 25%;
+  display: flex;
+  min-height: 260px;
+  margin-left: 35px;
+}
+.cardWrapper{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  background-image: url(/sea.jpg);
+  background-size: 100% 100%;
+  flex-grow: 1;
+  padding-left: 15px;
+}
+.hotelWrapper{
+  margin-top: 30px
 }
 
-.App-link {
-  color: #09d3ac;
+
+.belowCardController{
+  display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.bttnWrapper{
+  margin-right: 15px;
+    margin-bottom: 15px;
+}
+.imgtext{
+  color: white;
+}
+.hStyl{
+  font-size: 30px;
+  margin: 0;
+  margin-top: 8px;
+}
+.belowCard{
+  color: white
+}
+.bottomtext{
+  margin: 0;
+  font-size: 25px;
+}
+.priceCard{
+  border-bottom: 4px solid #f9db3d;
+  padding-bottom: 5px;
+}
+.placeContainer{
+  display: flex;
+  justify-content: space-evenly
+}
+.inclusiveContainer{
+  margin-top: 35px;
+}
+.inclusiveHeading{
+  font-size: 39px;
+  font-weight: bold;
+  color: #57585b;
+  margin-left: 100px;
+}
+.inclusiveWrap{
+  display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.inclusPara{
+  color: #797a7c;
+  font-size: 19px;
+}
+.inclusMargin{
+  margin: 0
+}
+.insSee{
+  color: #57585b;
+  font-size: 19px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.bottomInclu{
+  margin-left: 100px;
+  color: #797a7c;
+  font-size: 17px;
+}
+.cardDataInclusive{
+  width: 22%;
+    height: 398px;
+    border: 1px solid #bbbcbc;
+}
+.carImgInclusive{
+  width: 100%;
+  background-image: url(/sea.jpg);
+  min-height: 190px;
+  background-size: 100% 100%;
+}
+.texxInclusive{
+  margin-left: 13px;
+  margin-top: 17px;
+  margin-bottom: 9px;
+}
+.maIncl{
+  margin: 0;
+  color: #57585b;
+  font-weight: bold;
+  font-size: 25px;
+}
+.pMainIncl{
+  margin: 0;
+    padding-top: 7px;
+    color: #aaabac;
+    font-size: 19px;
+}
+.bottInclus{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.starInclusive{
+  margin: 0;
+  font-weight: bold;
+  font-size: 30px;
+  color: #f9da3e;
+}
+.fromInclusive{
+  margin: 0;
+    color: #bbbcbc;
+    font-size: 18px;
+}
+.moneyInclusive{
+  color: #E8733F;
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+.inclusiveCard{
+  display: flex;
+  justify-content: space-around;
+}
+.callNowContainer{
+  margin-top: 35px;
+}
+.callHeading{
+  text-align: center;
+}
+.callPara{
+  color: #57585b;
+  font-weight: bold;
+  font-size: 30px;
+}
+.calNo{
+  color: #6e3d7c;
+    font-weight: bold;
+    font-size: 40px;
+}
+.callHorizontal{
+  width: 75%;
+    border: 1px dashed #d8d8d8;
+}
+.iconCallNowWrapper{
+  display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 31px
+}
+.iconLayout{
+  display: flex;
+  align-items: center;
+}
+.distanceCall{
+  margin-left: 15px
+}
+.callPara1{
+  color: #595b5d;
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+.callPara2{
+  margin: 0;
+  padding-top: 8px;
+  color: #a3a4a5;
+  font-size: 17px;
+}
+.hotelHeading{
+  margin-left: 100px;
+  color: #575859;
+  font-weight: bold;
+  font-size: 35px;
+}
+.pHote{
+  margin: 0
+}
+.containerLogo{
+  display: flex;
+    justify-content: space-around;
+}
+.aHotel{
+  margin-left: 25px;
+    color: #b4b4b4;
+    font-size: 16px;
+    font-weight: bold;
+}
+.beloHotel{
+  margin-left: 100px;
+  color: #999a9c;
+  font-weight: bold;
+  font-size: 18px;
+}
+.seaTypes{
+    border: 1px solid grey;
+    width: 20%;
+    min-height: 540px;
+}
+.seaHead{
+  color: #57585b;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.seaImg{
+  width: 100%;
+  background-image: url(/sea.jpg);
+  min-height: 220px;
+  background-size: 100% 100%;
+}
+.textSea{
+  color: #bfc0c1;
+  font-size: 20px;
+}
+.noSea{
+  color: #58a781;
+  font-size: 20px;
+}
+.spanSea{
+  color: #8c8c8e;
+    font-size: 15px;
+}
+.inclusiveSea{
+  color: #8C8C8D;
+    font-weight: bold;
+    font-size: 21px;
+    padding-left: 10px;
+}
+.seaBottomWrapper{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.pSta{
+  margin: 0;
+  color: #f9da3e;
+  font-size: 27px;
+}
+.fromSea{
+  margin: 0;
+  color: #afb0b0;
+  font-size: 18px;
+}
+.moneyStar{
+  color: #e87340;
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 5px
+}
+.seaCont{
+  display: flex;
+  justify-content: space-around;
+}
+.seaIMgCont{
+  margin-left: 10px;
+    margin-right: 10px;
+    position: relative
+}
+.teSea{
+  padding-left: 10px;
+}
+.insideImgText{
+  color: white;
+    background-color: #5ab3c8;
+    width: 35%;
+    padding: 8px 5px;
+    border-top-left-radius: 12px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.marSe{
+  margin: 0
+}
+.reviewContainer{
+  display: flex;
+  min-height: 480px;
+  background-color: #f2f2f2;
+  margin-top: 45px;
+}
+.reviewWrapper{
+  display: flex;
+  justify-content: space-around;
+  width: 100%
+}
+.reviewLeftWrapper{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-left: 120px;
+}
+.headRev{
+      color: #57585b;
+      font-weight: bold;
+      font-size: 31px;
+  
+}
+.paraReview{
+  color: #8a8a8c;
+  font-size: 17px;
+}
+.bottomParaReview{
+  color: #8a8a8c;
+    font-size: 17px;
+}
+.reviewRightWrap{
+  margin-top: 27px;
+    background-color: white;
+    width: 20%;
+    margin-right: 15px;
+    height: 71%
+}
+.reviewHead{
+  padding: 20px;
+}
+.starReviewImg{
+  width: 50%;
+  margin-top: 11px;
+}
+.reviewPara{
+  color: #68727e;
+    padding: 20px;
+    font-size: 20px;
+}
+.reviewMargin{
+  margin: 0
+}
+.bottomReviewCont{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.userRev{
+  height: 23px;
+}
+.teMa{
+  margin-left: 15px;
+}
+.p1Review{
+  margin: 0;
+  color: #5f6062;
+  font-weight: bold;
+  font-size: 19px;
+}
+.p2Review{
+  margin: 0;
+  margin-top: 5px;
+  color: #bad297;
+}
+.navController{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 26px 0px 22px 0px;
+      width: 80%;
+      margin: auto;
+      background-color: white;
+}
+.leftnavController{
+  height: 60px;
+}
+.leftnavpCont{
+  padding-bottom: 10px;
+}
+.pleftCont{
+  margin: 0;
+  color: #a6a7a8;
+  font-weight: bold;
+  font-size: 19px;
+}
+.navStarImg{
+  width: 125px;
+    margin-left: 13px;
+}
+.seperatorLine{
+  width: 2px;
+  height: 70px;
+  opacity: .2;
+  background: #2d3c4d;
+  margin: 0 55px 0 55px;
+}
+.rightNavController{
+  height: 60px;
+}
+.feefoNav{
+  margin: 0;
+  padding-bottom: 15px;
+  color: #a6a7a8;
+  font-size: 19px;
+  font-weight: bold;
+}
+.parentRev{
+  position: relative;
+  padding-bottom: 79px;
+}
+.naParen{
+  position: absolute;
+    width: 100%;
+    bottom: -20px;
+}
+.purpleContentWrapper{
+  background-color: #6e3d7c;
+  padding-top: 60px;
+  padding-left: 50px;
+  display: flex;
+  min-height: 366px;
+}
+.purpleLeftWrapper{
+  display: flex;
+    color: white;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.purpleLeftPara1{
+  font-size: 25px;
+}
+.purMar{
+  margin: 0;
+  padding-top: 10px;
+}
+.purpleLeftPara2{
+  font-size: 25px;
+}
+.purpleRightWrapper{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.whitePurple{
+  color: white;
+}
+.emaWid{
+  width: 27px;
+}
+.spanPur{
+  margin-left: 15px;
+  font-size: 27px;
+}
+.purplSubs{
+  margin: 0;
+  font-size: 20px;
+}
+.inputPurple{
+  display: flex;
+  background-color: white;
+  width: 71%;
+  padding: 24px;
+  justify-content: space-between;
+}
+.inputP{
+  margin: 0;
+  color: #949595;
+}
+.imPurr{
+ margin-left: 27px
+}
+.greenPur{
+  width: 30px;
+}
+.bottomEma{
+  width: 29px
+}
+.purpleNavContainer{
+  display: flex;
+  justify-content: center;
+  height: 20%;
+}
+.purpleNavWrapper{
+     width: 80%;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    background-color: #f6f6f7;
+}
+.textNavPurpl{
+  display: flex;
+  align-items: center;
+  color: #6b6c6e;
+  font-weight: bold;
+  font-size: 18px;
+}
+.searchHolCont{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+.searchHolWrap{
+  width: 85%;
+    display: flex;
+}
+.ppp{
+  color: #57585b;
+  font-weight: bold;
+  font-size: 35px;
+}
+.divvvNav{
+  margin-top: 20px;
+    color: #808182;
+    font-size: 19px;
+}
+.ree{
+  display: flex;
+    align-items: center;
+}
+.lineee{
+  height: 2px;
+  margin-top: 20px;
+  background-color: #5a5c5e;
 }
