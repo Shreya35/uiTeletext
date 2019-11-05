@@ -3,7 +3,8 @@ import './App.css'
 class SearchHoliday extends Component{
   render(){
       return(
-          <div className="searchHolCont">
+        <div>
+            <div className="searchHolCont">
             <div className="searchHolWrap">
                <div className="lee">
                    <div className="ppp">
@@ -44,9 +45,10 @@ class SearchHoliday extends Component{
                        <div>family holidays or a group getaway. Plus all our holidays are ATOL protected, so you can book with confidence, knowing that you’ll be handled with care by </div>
                        <div>one of the UK’s favourite travel companies.</div>
                    </div>
-                   <div className="lineee">
-
-             </div>
+                   <div className="lineeeCont">
+                   
+                   </div>
+               
                </div>
 
                <div className="ree">
@@ -56,6 +58,11 @@ class SearchHoliday extends Component{
             </div>
             
           </div>
+          <div className="lineeeAA">
+
+          </div>
+        </div>
+          
       )
   }
 }

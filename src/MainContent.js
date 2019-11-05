@@ -6,11 +6,18 @@ class MainContent extends Component{
          <div className="mainContentController">
               <div className="MainHeading">
                    <div>
-                     <h1>ATOL Protected</h1>
+                     <img style={{width:"100px"}} src="atol-logo.svg"/>
                    </div>
-                   <div>
-                     <p>Book with confidence today.Low deposits from $49pp</p>
+                   <div className="atolCont">
+                    <div className="atolHead">
+                     <h1 className="atolMarr">ATOL Protected</h1>
+                     </div>
+                     <div className="atoText">
+                     <p className="atolMarr">Book with confidence today.Low deposits from $49pp</p>
+                     </div>
                    </div>
+                   
+                   
               </div>
 
               <div className="inputStyleController">
@@ -27,7 +34,7 @@ class MainContent extends Component{
                     <p>23/10/2019</p>
                   </div>
                   <div className="commanInputStyle">
-                    <p style={{color:"#ca9cd9"}}>Nights</p>
+                    <p className="coloaa">Nights</p>
                     <p>7</p>
                   </div>
                   <div className="commanInputStyle">
@@ -44,4 +51,3 @@ class MainContent extends Component{
  }
 }
 export default MainContent;
-//#5bbaec #e87340

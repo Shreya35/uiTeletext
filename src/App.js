@@ -14,6 +14,8 @@ import ReviewNavigation from "./ReviewNavigation";
 import Purple from "./Purple";
 import PurpleNav from "./PurpleNav";
 import SearchHoliday from "./SearchHolidays";
+import AppStore from './AppStore';
+import Travel from './Travel';
 import './App.css';
 
 class App extends Component {
@@ -34,6 +36,8 @@ class App extends Component {
         <Purple/>
         <PurpleNav/>
         <SearchHoliday/>
+        <AppStore/>
+        <Travel/>
        </div>
     );
   }

@@ -78,8 +78,11 @@
 }
 .mainContentController{
   display: flex;
-  background-color: #5bbaec;
-  height: 45%
+  flex-direction: column;
+  height: 75%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #5bbaec
 }
 .inputHeading{
   color: #8ab44a
@@ -122,7 +125,9 @@
   font-size: 30px;
 }
 .MainHeading{
-  color: white
+  display: flex;
+  color: white;
+  margin-right: 492px;
 }
 .holidayCont{
   display: flex;
@@ -669,8 +674,157 @@
   display: flex;
     align-items: center;
 }
+.lineeeCont{
+  width: 120%
+}
 .lineee{
   height: 2px;
   margin-top: 20px;
-  background-color: #5a5c5e;
+  background-color: #CCCDCC;
+  width: 100%
+}
+.lefyTex{
+  margin-left: 5px
+}
+.mncss{
+  margin-left: 50px
+}
+.opolq{
+  margin-right: 50px
+}
+.custSize{
+  font-size: 18px
+}
+.marh2{
+  margin: 0
+}
+.domnImgg{
+  margin-left: 10px
+}
+.coloaa{
+  color: #ca9cd9
+}
+.purrMar{
+  margin: 0
+}
+.atolHead{
+  font-size: 32px;
+}
+.atolMarr{
+  margin: 0
+}
+.atoText{
+  font-size: 25px;
+}
+.atolCont{
+  margin-left: 20px;
+}
+.menuImgg{
+  height: 28px
+}
+.headerController{
+  position: relative;
+}
+.menavCont{
+  position: absolute;
+  top: 0;
+  right: 0
+}
+.leftappStoreWrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.appStoreHead1{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 31px;
+  color: #57585b;
+}
+.appStoreMarg{
+  margin: 0
+}
+.appStoreHead2{
+  color: #6e3d7c;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 31px;
+  margin-top: 10px;
+}
+.appStorePara{
+  color: #c5c6c6;
+    padding-top: 17px;
+    font-size: 18px;
+}
+.appStoreImgContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.sideAppStoreImg{
+  padding-left: 15px;
+}
+.appStoreContainer{
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+.rightappStoreWrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.ulAppStore{
+  list-style-type:none;
+}
+.headliAppStore{
+  color: #57585b;
+  font-size: 22px;
+  padding-bottom: 40px;
+  opacity: 1;
+  font-weight: bold;
+  margin: 0;
+}
+.liAppStore{
+  color: #adaeae;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.lineeAppStore{
+  height: 2px;
+  width: 90%;
+  border-bottom: 1px solid #e3e7ec;
+  margin: 0 auto;
+}
+.lineeeAA{
+  border-bottom: 1px solid #CCCDCB;
+  height: 2px;
+  width: 90%;
+  margin: 0 auto;
+}
+.travelContainer{
+  margin-top: 30px;
+  padding-left: 50px;
+}
+.ppp111{
+  color: #cccdcb;
+    margin: 0;
+    font-size: 19px;
+    font-weight: bold;
+}
+.ppp222{
+  margin: 0;
+  color: #77787a;
+}
+.para1Travel .para2Travel .para3Travel .para4Travel .para5Travel{
+  color: #77787a;
+}
+.blueTravel{
+  color: #5eb6ca;
+}
+@media only screen and (max-width: 1000px) and (min-width:700px){
+  .callContainer {
+    display: none
+  }
 }

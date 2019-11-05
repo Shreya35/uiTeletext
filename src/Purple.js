@@ -7,13 +7,13 @@ class Purple extends Component{
                   <div className="purpleContentWrapper">
                       <div className="purpleLeftWrapper">
                          <div className="purpleLeftPara1">
-                            <p style={{margin:"0"}}>All inclusive holidays</p>
+                            <p className="purrMar">All inclusive holidays</p>
                             <p className="purMar">Last minute holidays</p>             
                             <p className="purMar">Family friendly holidays</p>
                             <p className="purMar">Adult only holidays</p>
                          </div>
                          <div className="purpleLeftPara2">
-                            <p style={{margin:"0"}}>2020 holidays</p>
+                            <p className="purrMar">2020 holidays</p>
                             <p className="purMar">City break holidays</p>
                             <p className="purMar">Winter Sun holidays</p>
                             <p className="purMar">Summer holidays</p>

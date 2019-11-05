@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import './App.css';
 class BelowHeader extends Component{
   render(){
       return (
@@ -8,7 +9,7 @@ class BelowHeader extends Component{
                     <p>ATOL protected</p>
                  </div>
                  <div className="textStyle">
-                    <p style={{marginLeft:"5"}}>TTA protected</p>
+                    <p className="lefyTex">TTA protected</p>
                  </div>
              </div>
 
@@ -19,8 +20,8 @@ class BelowHeader extends Component{
                  <span className="noContainer">
                   <p className="noStyle">0196 278 4136</p>
                  </span>
-                 <span style={{marginLeft:"50px"}}>
-                   <p style={{marginRight:"50px"}}>Open 8am till midnight</p>
+                 <span className="mncss">
+                   <p className="opolq">Open 8am till midnight</p>
                  </span>
              </div>
           </div>
@@ -28,4 +29,3 @@ class BelowHeader extends Component{
   }
 }
 export default BelowHeader;
-//#6e3d7c
