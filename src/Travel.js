@@ -28,28 +28,8 @@ class Travel extends Component{
             </div>
 
             <div className="para5Travel">
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-              <p>qwerg qw jksjkdj kkkkkkk jnsjndjsn dsdasas sdfhjafb sjdnajsnaj dfhakjsdfb jakj has to be taken into consideraiton very much</p>
-
+              <p>Bookings are arranged by Truly Travel Ltd (a member of the TTA (U6466)), under the trading name Teletext Holidays unless otherwise stated. Products and prices are subject to availability and Truly Travel Ltd’s and the applicable supplier(s) terms & conditions, and you must read these carefully before making any booking. Each travel service is priced separately and independently, creating direct and separate contracts between you and the applicable supplier/principal(s). We are not a party to any such contract. However, where you book a “Multi-Contract Package” as defined in our Terms & Conditions, we shall accept responsibility for your booking as the “organiser” under the Package Travel & Linked Travel Arrangements Regulations 2018. This does not affect our agency status. Please see our booking conditions for further information </p>
+             
               
             </div>
           <div className="lineeTravel"></div>
