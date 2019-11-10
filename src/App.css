@@ -834,3 +834,18 @@
     display: none
   }
 }
+
+@media only screen and (max-width:700px){
+  .inclusiveCard{
+    flex-direction: column;
+  }
+  .cardDataInclusive{
+    width:100%
+  }
+  .seaCont{
+    flex-direction: column;
+  }
+  .seaTypes{
+    width: 100%
+  }
+}
